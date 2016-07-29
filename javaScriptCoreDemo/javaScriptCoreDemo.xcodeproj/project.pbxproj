@@ -15,6 +15,8 @@
 		04DB9C651D4B01FF00ADB8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DB9C631D4B01FF00ADB8F2 /* LaunchScreen.storyboard */; };
 		04DB9C701D4B020000ADB8F2 /* javaScriptCoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB9C6F1D4B020000ADB8F2 /* javaScriptCoreDemoTests.m */; };
 		04DB9C7B1D4B020000ADB8F2 /* javaScriptCoreDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB9C7A1D4B020000ADB8F2 /* javaScriptCoreDemoUITests.m */; };
+		04DB9C8A1D4B041700ADB8F2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DB9C891D4B041700ADB8F2 /* Person.m */; };
+		04DB9C8C1D4B044A00ADB8F2 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 04DB9C8B1D4B044A00ADB8F2 /* test.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04DB9C761D4B020000ADB8F2 /* javaScriptCoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = javaScriptCoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DB9C7A1D4B020000ADB8F2 /* javaScriptCoreDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = javaScriptCoreDemoUITests.m; sourceTree = "<group>"; };
 		04DB9C7C1D4B020000ADB8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DB9C881D4B041700ADB8F2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		04DB9C891D4B041700ADB8F2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04DB9C8B1D4B044A00ADB8F2 /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				04DB9C591D4B01FE00ADB8F2 /* AppDelegate.m */,
 				04DB9C5B1D4B01FE00ADB8F2 /* ViewController.h */,
 				04DB9C5C1D4B01FE00ADB8F2 /* ViewController.m */,
+				04DB9C881D4B041700ADB8F2 /* Person.h */,
+				04DB9C891D4B041700ADB8F2 /* Person.m */,
+				04DB9C8B1D4B044A00ADB8F2 /* test.js */,
 				04DB9C5E1D4B01FF00ADB8F2 /* Main.storyboard */,
 				04DB9C611D4B01FF00ADB8F2 /* Assets.xcassets */,
 				04DB9C631D4B01FF00ADB8F2 /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				04DB9C651D4B01FF00ADB8F2 /* LaunchScreen.storyboard in Resources */,
 				04DB9C621D4B01FF00ADB8F2 /* Assets.xcassets in Resources */,
+				04DB9C8C1D4B044A00ADB8F2 /* test.js in Resources */,
 				04DB9C601D4B01FF00ADB8F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				04DB9C5D1D4B01FE00ADB8F2 /* ViewController.m in Sources */,
 				04DB9C5A1D4B01FE00ADB8F2 /* AppDelegate.m in Sources */,
+				04DB9C8A1D4B041700ADB8F2 /* Person.m in Sources */,
 				04DB9C571D4B01FE00ADB8F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
